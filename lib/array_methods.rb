@@ -10,7 +10,12 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  # Add your solution here
+  highest = 0
+  array.length.times do |index|
+    if array[index] > highest
+      highest = array[index]]
+    end
+  end
 end
 
 def find_min_value(array)
